@@ -1,0 +1,56 @@
+body::before{
+    content: "";
+    height: 40px;
+    display: block;
+
+    overflow-x: hidden;
+}
+.nav-icon{
+    border: none;
+    background: transparent;
+    color: gold;
+}
+
+.nav-icon:hover{
+    background: transparent;
+    color: gold;
+}
+
+.nav-icon:focus{
+    background: transparent;
+    color: gold;
+    border: none;
+    outline: none;
+}
+
+.right{
+    position: absolute;
+    right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .push-down{
+        margin-bottom: 1rem;
+    }
+}
+
+.raise-card:hover{
+    box-shadow: 0px 0px 8px #888;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .push-left{
+        margin-left: 1rem;
+    }
+}
+
+.change-text{
+    font-size: 0.7rem
+
+}
+
+.far-right{
+    position:absolute;
+    right: 8rem;
+}
